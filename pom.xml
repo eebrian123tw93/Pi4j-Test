@@ -26,7 +26,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>MainClass</mainClass>
+                            <mainClass>Main</mainClass>
                         </manifest>
                     </archive>
                     <descriptorRefs>
@@ -43,6 +43,16 @@
             <artifactId>pi4j-core</artifactId>
             <version>1.2-SNAPSHOT</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.pi4j/pi4j-native -->
+        <dependency>
+            <groupId>com.pi4j</groupId>
+            <artifactId>pi4j-native</artifactId>
+            <version>1.2-SNAPSHOT</version>
+            <type>pom</type>
+        </dependency>
+
+
     </dependencies>
     <repositories>
         <repository>

@@ -3,7 +3,7 @@ import com.pi4j.platform.Platform;
 import com.pi4j.platform.PlatformAlreadyAssignedException;
 import com.pi4j.platform.PlatformManager;
 
-public class MainClass {
+public class Main {
 
     public static void main(String[] args) throws InterruptedException, PlatformAlreadyAssignedException {
 
